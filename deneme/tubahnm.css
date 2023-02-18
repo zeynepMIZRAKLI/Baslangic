@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* section{
+        display: inline-block;
+        width: 45%;
+    }*/
+.header {
+    background-color: black;
+    color: darkgray;
+}
+.bölüm1 {
+    background-color: gainsboro;
+    color: rgb(43, 40, 40);
+    list-style-type: disc;
+    float: left;
+    width: 50%;
+}
+
+.bölüm2 {
+    float: left;
+    width: 50%;
+}
+
+ul {
+    margin-left: 30px;
+    margin: 10px 30px;
+    font-size: 15px;
+
+}
+
+#son {
+    background-color: black;
+    color: rgb(196, 190, 190);
+    height: 400px;
+}
+.mutlu{
+    background-color: rgb(244, 241, 241);
+}
+.temizle{
+    clear: both;
+}
+#son p{
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+#son a{
+    float:right;
+    text-decoration: none;
+    color: rgb(204, 200, 200);
+}

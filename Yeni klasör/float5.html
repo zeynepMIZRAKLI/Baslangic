@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar ornegi</title>
+<style>
+    *{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+overflow: hidden;
+background-color: #f1f1f1;
+padding: 10px 10px;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+#navbar a{
+    float: left;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 25px;
+
+}
+
+#navbar a:hover{
+    background-color: #ddd;
+    
+}
+#navbar a:active{
+    background-color: #ddd;
+
+}
+#navbar #logo{
+    font-size: 35px;
+    font-weight: bold;
+}
+#navbar-right{
+    float: right;
+}
+
+</style>
+
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="#" id="logo">sirket logosu</a>
+        <div id="navbar-right">
+            <a href="#" class="active">anasayfa</a>
+            <a href="#">iletisim</a>
+            <a href="#"> about</a>
+        </div>
+
+  </div>
+
+</body>
+
+</html>
